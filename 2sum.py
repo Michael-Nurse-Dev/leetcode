@@ -16,7 +16,7 @@ class Solution:
             near O(n) time and not O(n2) time.            
       
             Return the indices of the two integers in
-            a list of length 2"
+            a list of length 2
             
             Types 
                 nums: List[int]
@@ -52,5 +52,4 @@ Success
 
 Details 
 Runtime: 48 ms, faster than 87.10% of Python3 online submissions for Two Sum.
-Memory Usage: 15.3 MB, less than 26.67% of Python3 online submissions for Two Sum.
 '''
