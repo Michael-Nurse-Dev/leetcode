@@ -5,7 +5,7 @@
 
 // Note: Must work at roughly O(n) speed so brute force approach will not work.
 
-/**
+/*
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}

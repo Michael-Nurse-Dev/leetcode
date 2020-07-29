@@ -6,9 +6,9 @@ digit. Add the two numbers and return it as a linked list.
 You may assume the two numbers do not contain any leading zero, 
 except the number 0 itself.
 
-My note: the lists can be any length - and the class cannot be iterated, so
-you will have to use functional programming to re-call itself repeatedly.
-
+My note: the lists can be any length - and the class cannot be iterated through, 
+so you will have to use functional programming to re-call the method or use a
+while loop.
 
 Definition for singly-linked list.
 class ListNode:
@@ -28,19 +28,16 @@ class Solution:
         :rtype: ListNode
         """
         
-        #bring any previous carries forward fromt the 
+        #bring any previous carries forward from the 
         #previous node and add it to the current number
         current_node_value = linked_list1.val + linked_list2.val + carry 
-        #print(current_node_value)
         
         #update the carry for the current node
         #use double slash to drop any remainder
         carry = current_node_value // 10
-        #print(carry)
         
         #Build up the first answer digit in a linked list.
         answer = ListNode(current_node_value % 10)
-        #print(answer)
         
         #Use logic to see if the method must call itself.
         #Use logic to populate null fields in the original
