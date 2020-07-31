@@ -6,10 +6,6 @@ digit. Add the two numbers and return it as a linked list.
 You may assume the two numbers do not contain any leading zero, 
 except the number 0 itself.
 
-My note: the lists can be any length - and the class cannot be iterated through, 
-so you will have to use functional programming to re-call the method or use a
-while loop.
-
 Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):

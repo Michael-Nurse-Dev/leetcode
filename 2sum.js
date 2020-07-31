@@ -1,14 +1,14 @@
-// Description
-
-// Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-// You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-// Note: Must work at roughly O(n) speed so brute force approach will not work.
-
 /*
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
+Description
+
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Note: Must work at roughly O(n) speed so brute force approach will not work.
+
+ @param {number[]} nums
+ @param {number} target
+ @return {number[]}
  */
 
 const twoSum = (arrayIntegers, target) => {
